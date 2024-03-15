@@ -23,7 +23,7 @@
     <div class="profile-section">
         <h1>プロフィール</h1>
         <div class="profile-info">
-            <img src="git-test_shinoda/images/bakabon.jpeg" alt="Profile Picture">
+            <img src="images/bakabon.jpeg" alt="Profile Picture">
             <h3>上地崇正</h3>
             <p>大阪生まれの沖縄人です。
             </p>
@@ -36,7 +36,7 @@
             <label for="name">名前:</label><input type="text" id="name" name="name"><br><br>
             <label for="email">メールアドレス:</label><input type="email" id="email" name="email"><br><br>
             <label for="message">メッセージ:</label><textarea id="message" name="message"></textarea><br><br>
-            <label for="subject">名前:</label><input type="text" id="subject" name="subject"><br><br>
+            <label for="subject">宛先:</label><input type="text" id="subject" name="subject"><br><br>
             <input type="submit" value="送信">
         </form>
     </div>
