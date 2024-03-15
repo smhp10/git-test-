@@ -3,6 +3,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$subject = $_POST['subject'];
 
 // DB接続
 $conn = mysqli_connect("localhost", "root", "", "git-test");
@@ -13,7 +14,7 @@ if (!$conn) {
 }
 
 // データを挿入
-$sql = "INSERT INTO comments (name, email, message) VALUES ('$name', '$email', '$message')";
+$sql = "INSERT INTO comments (name, email, message, subject) VALUES ('$name', '$email', '$message', '$subject')";
 
 if (mysqli_query($conn, $sql)) {
     echo '<script>alert("メッセージが送信されました");</script>';
